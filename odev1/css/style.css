@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+nav li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+h3 {
+  text-align: center;
+  color: #666;
+
+}
+
+.content {
+  font-size: 14px;
+  color : #666;
+  text-align: center;
+  
+}
+
+.content li{
+  list-style-position:inside;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.products {
+  background-color: gray;
+  height: 350px;
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 20px;
+  display: block;
+  float: left;
+}
+
+.products img {
+  
+  height: 200px;
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.products p {
+  color: white;
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+
